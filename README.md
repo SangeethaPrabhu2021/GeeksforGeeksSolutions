@@ -10,7 +10,8 @@ Hacktoberfest is an annual month-long event that encourages open-source contribu
 	
   1. Star the Repository.
   2. Fork Repository.
-  3. Create and Add your contribution and commit.
-  4. Create a Pull Request.
+  3. Choose the branch as per the language in which you are coding
+  4. Create and Add your contribution and commit.
+  5. Create a Pull Request.
 
 
