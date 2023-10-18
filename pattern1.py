@@ -1,11 +1,20 @@
-class Solution {
+def triangle(n):
+     a = n - 1
+     for i in range(0, n):
+         for j in range(0, a):
+            print(end=" ")
+         a = a - 1
+         for j in range(0, i+1):
+             print("* ", end="")
+         print("\r")
+ 
 
-    void printTriangle(int n) {
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=i; j++){
-                System.out.print(i + " ");
-            }
-        System.out.println();
-        }
-    }
-}
+n = 5
+triangle(n)
+
+Output
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
